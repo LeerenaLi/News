@@ -1,0 +1,44 @@
+.card {
+    // max-width: 270px;
+    &__img {
+        margin-bottom: 10px;
+    }
+    &__text {
+        position: relative;
+        margin-bottom: 10px;
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: block;
+            width: 24px;
+            height: 24px;
+            background: url('../img/arrow-up-right.svg') no-repeat center;
+        }
+    }
+    &__title {
+        max-width: 240px;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    &__description {
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+        line-height: 130%;
+        color: #8E8E8E;
+    }
+    &__data {
+        margin-right: 12px;
+    }
+    &__time {
+        margin-right: auto;
+    }
+}

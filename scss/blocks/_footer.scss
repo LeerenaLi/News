@@ -1,0 +1,41 @@
+.footer {
+    padding-top: 22px;
+    padding-bottom: 30px;
+    &__container {
+        height: 50px;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    &____logo {
+        align-self: center;
+    }
+    &__copyright {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 1;
+        justify-self: center;
+        align-self: end;
+    }
+
+    &__social {
+        justify-self: end;
+        align-self: center;
+    }
+
+    &__list {
+        max-width: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    &__link {
+        width: 30px;
+        height: 30px;
+        background: #F2994A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}

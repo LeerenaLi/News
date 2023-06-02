@@ -1,0 +1,41 @@
+.country {
+    position: relative;
+    width: 320px;
+    height: 44px;
+    border: 1px solid #E6E6E6;
+    border-radius: 22px;
+    padding-top: 16px;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 1;
+    &__btn {
+        &::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 20px;
+            height: 20px;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url('../img/arrow-down.svg') no-repeat center;
+        }
+    }
+    &__wrapper {
+        display: none;
+        position: absolute;
+        width: 184px;
+        top: 46px;
+        left: 0;
+        background: #fff;
+        box-shadow: 0px 2px 10px rgba(0,0,0,.1);
+        border-radius: 6px;
+        padding: 16px 8px 16px 16px;
+    }
+    &__item {
+        margin-bottom: 14px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

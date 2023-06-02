@@ -1,0 +1,25 @@
+$main-color: #212121;
+$second-color: #fff;
+
+
+$laptop: 1024px;
+$tablet: 768px;
+$mobile: 560px;
+
+@mixin laptop {
+    @media (max-width: #{$laptop}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}

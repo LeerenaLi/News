@@ -1,0 +1,15 @@
+.blog {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e6e6e6;
+    &_search-news {
+        display: none;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 270px);
+        justify-content: space-evenly;
+        gap: 40px 20px;
+    }
+}
+
