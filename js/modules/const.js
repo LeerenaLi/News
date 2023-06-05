@@ -1,5 +1,4 @@
 export const URL = 'https://newsapi.org/v2/';
-// export const URL = '../../headlines.json';
 export const API_KEY = 'cf06ebfe83d542718f5829b8eb8f5fd4';
 
 export const wrapperFreshNews = document.querySelector('.fresh-news__container');

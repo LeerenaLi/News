@@ -1,5 +1,7 @@
 .search {
-
+    @include laptop {
+        order: 1;
+    }
     &__form {
         position: relative;
     }
@@ -13,6 +15,9 @@
         &::placeholder {
             font-size: 14px;
             line-height: 1;
+        }
+        @include mobile {
+            width: 258px;
         }
     }
     &__btn {

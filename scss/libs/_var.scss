@@ -2,9 +2,9 @@ $main-color: #212121;
 $second-color: #fff;
 
 
-$laptop: 1024px;
+$laptop: 1070px;
 $tablet: 768px;
-$mobile: 560px;
+$mobile: 580px;
 
 @mixin laptop {
     @media (max-width: #{$laptop}) {
