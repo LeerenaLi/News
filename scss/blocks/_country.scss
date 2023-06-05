@@ -32,6 +32,9 @@
         border-radius: 6px;
         padding: 16px 8px 16px 16px;
     }
+    &__wrapper_open {
+        display: block;
+    }
     &__item {
         margin-bottom: 14px;
         &:last-child {

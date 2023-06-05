@@ -15,6 +15,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="css/index.min.css">
+    <script src="js/index.js" type="module"></script>
 </head>
 <body>
     <header class="header">
@@ -34,15 +35,15 @@
             </div>
 
             <div class="header__country country">
-                <button class="country__btn">Россия</button>
+                <button class="country__btn">Страна</button>
                 
                 <div class="country__wrapper">
                     <ul class="country__list">
                         <li class="country__item">
-                            <button class="country__option" data-option="option" value="USA">USA</button>
+                            <button class="country__option" data-option="option" value="ru">Россия</button>
                         </li>
                         <li class="country__item">
-                            <button class="country__option" data-option="option" value="GBP">Great Britain</button>
+                            <button class="country__option" data-option="option" value="us">USA</button>
                         </li>
                     </ul>
                 </div>
@@ -52,129 +53,38 @@
 
     <main>
         <section class="hero hero-search">
-            <div class="container">
-                <h2 class="hero__title"></h2>
-            </div>
-        </section>
-        <section class="blog blog_search-news">
-            <div class="container">
 
+            <div class="hero-search__title">
+                <div class="container">
+                    <h2 class="hero__title hero__title_search">news</h2>
+                </div>
+            </div>
+
+            <div class="blog search-news">
+                <div class="container search-news__container">
+
+                </div>
             </div>
         </section>
+
+        
+
         <section class="hero hero-fresh">
-            <div class="container">
-                <h1 class="visually-hidden">Свежие новости и поиск новостей</h1>
-                <h2 class="hero__title">Свежие новости</h2>
+            
+            <div class="hero-fresh__title">
+                <div class="container">
+                    <h1 class="visually-hidden">Свежие новости и поиск новостей</h1>
+                    <h2 class="hero__title hero__title_fresh">Свежие новости</h2>
+                </div>
+            </div>
+
+            <div class="blog fresh-news">
+                <div class="container fresh-news__container">
+
+                </div>
             </div>
         </section>
-        <section class="blog blog_fresh-news">
-            <div class="container">
-                
-                <ul class="blog__list">
-                    <li class="blog__item card">
-                        <img src="img/unsplash.jpg" alt="" class="card__img">
-                        <div class="card__content">
-                            <a href="#" class="card__link">
-                                <div class="card__text">
-                                    <h3 class="card__title">В России начали выпускать суверенные печатные платы — в них только отечественное сырьё и материалы</h3>
-                                    <p class="card__description">Холдинг «Российские космические системы», входящий в состав «Роскосмоса»...</p>
-                                </div>
-                            </a>
-                            <div class="card__info">
-                                <p class="card__data">16/03/2022</p>
-                                <p class="card__time">11:06</p>
-                                <p class="card__autor">Эрик Крипке</p>
-                            </div>
-                        </div>
-                    </li>
 
-                    <li class="blog__item card">
-                        <img src="img/unsplash.jpg" alt="" class="card__img">
-                        <div class="card__content">
-                            <a href="#" class="card__link">
-                                <div class="card__text">
-                                    <h3 class="card__title">В России начали выпускать суверенные печатные платы — в них только отечественное сырьё и материалы</h3>
-                                    <p class="card__description">Холдинг «Российские космические системы», входящий в состав «Роскосмоса»...</p>
-                                </div>
-                            </a>
-                            <div class="card__info">
-                                <p class="card__data">16/03/2022</p>
-                                <p class="card__time">11:06</p>
-                                <p class="card__autor">Эрик Крипке</p>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="blog__item card">
-                        <img src="img/unsplash.jpg" alt="" class="card__img">
-                        <div class="card__content">
-                            <a href="#" class="card__link">
-                                <div class="card__text">
-                                    <h3 class="card__title">В России начали выпускать суверенные печатные платы — в них только отечественное сырьё и материалы</h3>
-                                    <p class="card__description">Холдинг «Российские космические системы», входящий в состав «Роскосмоса»...</p>
-                                </div>
-                            </a>
-                            <div class="card__info">
-                                <p class="card__data">16/03/2022</p>
-                                <p class="card__time">11:06</p>
-                                <p class="card__autor">Эрик Крипке</p>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="blog__item card">
-                        <img src="img/unsplash.jpg" alt="" class="card__img">
-                        <div class="card__content">
-                            <a href="#" class="card__link">
-                                <div class="card__text">
-                                    <h3 class="card__title">В России начали выпускать суверенные печатные платы — в них только отечественное сырьё и материалы</h3>
-                                    <p class="card__description">Холдинг «Российские космические системы», входящий в состав «Роскосмоса»...</p>
-                                </div>
-                            </a>
-                            <div class="card__info">
-                                <p class="card__data">16/03/2022</p>
-                                <p class="card__time">11:06</p>
-                                <p class="card__autor">Эрик Крипке</p>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="blog__item card">
-                        <img src="img/unsplash.jpg" alt="" class="card__img">
-                        <div class="card__content">
-                            <a href="#" class="card__link">
-                                <div class="card__text">
-                                    <h3 class="card__title">В России начали выпускать суверенные печатные платы — в них только отечественное сырьё и материалы</h3>
-                                    <p class="card__description">Холдинг «Российские космические системы», входящий в состав «Роскосмоса»...</p>
-                                </div>
-                            </a>
-                            <div class="card__info">
-                                <p class="card__data">16/03/2022</p>
-                                <p class="card__time">11:06</p>
-                                <p class="card__autor">Эрик Крипке</p>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="blog__item card">
-                        <img src="img/unsplash.jpg" alt="" class="card__img">
-                        <div class="card__content">
-                            <a href="#" class="card__link">
-                                <div class="card__text">
-                                    <h3 class="card__title">В России начали выпускать суверенные печатные платы — в них только отечественное сырьё и материалы</h3>
-                                    <p class="card__description">Холдинг «Российские космические системы», входящий в состав «Роскосмоса»...</p>
-                                </div>
-                            </a>
-                            <div class="card__info">
-                                <p class="card__data">16/03/2022</p>
-                                <p class="card__time">11:06</p>
-                                <p class="card__autor">Эрик Крипке</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
     </main>
 
     <footer class="footer">
